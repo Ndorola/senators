@@ -1,0 +1,39 @@
+.logo {
+    width: 10vw;
+    padding: 1vw;
+}
+
+.columna {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.mail {
+    text-decoration: none;
+    color: black;
+}
+
+h2, h3{
+    color: rgb(39, 131, 182);
+}
+
+a#boton.collapsed::after{
+    content: "Read more";
+    color: rgb(39, 131, 182);
+}
+
+a#boton:not(.collapsed)::after{
+    content: "Read less";
+}
+
+thead , td, h4 {
+    color: rgb(28, 93, 128);
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(238, 238, 238);
+    height: 10vh;
+}
+
